@@ -1,0 +1,19 @@
+{
+  "name": "inkl/magento1",
+  "description": "magento 1 services",
+  "license": "MIT",
+  "authors": [{
+    "name": "Marcus",
+    "email": ""
+  }],
+  "require": {
+    "php": ">= 5.5",
+    "curl/curl": "^1.2",
+	"zendframework/zend-xmlrpc": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Inkl\\Magento1\\": "src/"
+    }
+  }
+}
