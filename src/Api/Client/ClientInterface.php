@@ -1,6 +1,6 @@
 <?php
 
-namespace Magento\Api\Client;
+namespace Inkl\Magento1\Api\Client;
 
 interface ClientInterface {
 

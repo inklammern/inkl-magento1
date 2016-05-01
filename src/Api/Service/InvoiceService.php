@@ -1,8 +1,8 @@
 <?php
 
-namespace Magento\Api\Service;
+namespace Inkl\Magento1\Api\Service;
 
-use Magento\Api\Client\ClientInterface;
+use Inkl\Magento1\Api\Client\ClientInterface;
 
 class InvoiceService
 {
