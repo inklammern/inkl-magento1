@@ -1,6 +1,6 @@
 <?php
 
-namespace Inkl\Magento1\Api\Service;
+namespace Inkl\Magento1\Api\Service\Sales\Order;
 
 use Inkl\Magento1\Api\Client\ClientInterface;
 
