@@ -1,10 +1,10 @@
 <?php
 
-namespace Inkl\Magento1\Api\Service\Catalog\Product;
+namespace Inkl\Magento1\Api\Service\Catalog;
 
 use Inkl\Magento1\Api\Client\ClientInterface;
 
-class AttributeService
+class CategoryService
 {
 
 	/** @var ClientInterface */
@@ -20,9 +20,9 @@ class AttributeService
 	}
 
 
-	public function getOptions($attributeCode, $storeId = 0)
+	public function getTree($parentId, $storeId = 0)
 	{
-		return $this->client->call('catalog_product_attribute.options', [$attributeCode, $storeId]);
+		return $this->client->call('catalog_category.tree', [$parentId, $storeId]);
 	}
 
 }
