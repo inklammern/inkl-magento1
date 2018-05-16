@@ -28,5 +28,10 @@ class ProductService
 	{
 		return $this->client->call('catalog_product.info', [$productId, $storeId]);
 	}
+	
+	public function update($productId, $data, $storeId = 0)
+	{
+		return $this->client->call('catalog_product.update', [$productId, $data, $storeId]);
+	}
 
 }
