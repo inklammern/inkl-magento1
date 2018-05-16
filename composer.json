@@ -4,7 +4,7 @@
   "license": "MIT",
   "authors": [{
     "name": "Marcus",
-    "email": ""
+    "email": "."
   }],
   "require": {
     "php": ">= 5.5",
